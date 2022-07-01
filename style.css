@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body{
+font-family: 'Rubik', sans-serif;
+overflow-x: hidden;
+}
+
+
+.hero1{
+   margin-top: 6rem;
+   height: 60vh;
+}
+.blogo{
+   color: red;
+   font-weight: bold;
+   width: 40px;
+   height: 40px;
+}
+
+
+.tool svg{
+   width: 200px;
+   height: 200px;
+   color: rgb(127, 195, 112);
+   animation: round 10s linear infinite;
+}
+@keyframes round {
+   100%{
+
+   transform: rotate(360deg);
+
+   }
+}
+
+.info{
+   text-align: right;
+}
+
+.info h1{
+   display: inline-block;
+   background-color: rgb(244, 84, 84);
+   color: brown;
+   border-radius: 5px;
+}
+.info p{
+   font-weight: 400;
+}
+
+.heading h1{
+   margin-top: 6rem;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.ftr{
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.ftr svg{
+   width: 40px;
+   height: 40px;
+   color: crimson;
+   margin-bottom: 1rem;
+}
+
+.ftr p{
+   font-size: 0.9rem;
+   font-weight: 400;
+   color: rgb(80, 80, 80);
+}
+.wrtin p{
+   font-size: 2rem;
+   text-align: center;
+}
+
+.wrtin:nth-of-type(1) p{
+   background-color: crimson;
+   color: white;
+}
+.wrtin:nth-of-type(2) p{
+  background-color: rgb(252, 66, 243);
+   color: white;
+}
+.wrtin:nth-of-type(3) p{
+   background-color: rgb(13, 110, 179);
+   color: white;
+}
+.wrtin:nth-of-type(4) p{
+   background-color: rgb(242, 152, 42);
+   color: white;
+}
+
+.hero2{
+   position: relative;
+   overflow: hidden;
+}
+
+.hero2 .gps{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   color: coral;
+   opacity: .4;
+   left: -0%;
+   top: 20%;
+}
+
+.review {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.5rem;
+   max-width: 500px;
+   box-shadow: 3px 3px 8px rgb(182, 182, 182),
+   -3px -3px 8px rgb(227, 227, 227),
+   inset 4px 4px 10px rgb(238, 238, 238),
+   inset -4px -4px 10px rgb(236, 236, 236)
+   ;
+   border-radius: 10px;
+  }
+  .review img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+  }
+  .profile {
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  }
+  .review {
+   margin: 0 auto;
+   padding: 0 1rem;
+ margin-bottom: 2rem;
+  }
+  .review i {
+   font-size: 3rem;
+   color: rgb(155, 213, 155);
+  }
+  .review p {
+   font-size: 1rem;
+   font-weight: 400;
+   color: #4c4c4c;
+  }
+  .profile img {
+   margin-right: 2rem;
+  }
+  .profile .name p {
+   margin: 0;
+   padding: 0;
+  }
+  .profile .name p:nth-of-type(2) {
+   color: rgb(106, 106, 106);
+  }
+  .profile {
+   margin-top: 1rem;
+  }
+
+footer{
+   background-color: rgb(52, 52, 52);
+   padding: 3rem 0;
+}
+ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+footer li{
+   color: #dedcdc;
+}
+footer h6{
+   color: #f47474;
+   margin-bottom: 1rem;
+}
+.ficon{
+   text-align: right;
+}
+.ficon i:nth-of-type(1){
+   width: 20px;
+   height: 20px;
+   color: rgb(93, 147, 247);
+}
+.ficon i:nth-of-type(2){
+   width: 20px;
+   height: 20px;
+   color: rgb(56, 132, 255);
+}
+.ficon i:nth-of-type(3){
+   width: 20px;
+   height: 20px;
+   color: rgb(255, 65, 65);
+}
+.ficon i:nth-of-type(4){
+   width: 20px;
+   height: 20px;
+   color: rgba(218, 2, 149, 0.922);
+}
+@media (max-width:768px){
+   .ftr p{
+      width: 60%;
+      margin: 0 auto;
+   }
+   .tool{
+      text-align: center;
+      margin-bottom: 5rem;
+   }
+   .hero1{
+      height: 80vh;
+      margin-bottom: 7rem;
+   }
+
+}

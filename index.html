@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js" integrity="sha512-ndrrR94PW3ckaAvvWrAzRi5JWjF71/Pw7TlSo6judANOFCmz0d+0YE+qIGamRRSnVzSvIyGs4BTtyFMm3MT/cg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<!-- ----nav---- -->
+<nav class="navbar navbar-expand-lg bg-light">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="#"><svg class="blogo" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M3.5 1.5h5a3 3 0 110 6h-5m0-6v6m0-6H2m1.5 0V0m0 7.5h6a3 3 0 110 6h-6m0-6v6m0-6H2m1.5 6H2m1.5 0V15m4-15v1.5m0 12V15" stroke="currentColor"></path></svg></a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Features</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Download
+           </a>
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" href="#">Action</a></li>
+             <li><a class="dropdown-item" href="#">Another action</a></li>
+             <li><hr class="dropdown-divider"></li>
+             <li><a class="dropdown-item" href="#">Something else here</a></li>
+           </ul>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+       </ul>
+       <form class="d-flex" role="search">
+         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success" type="submit">Search</button>
+       </form>
+     </div>
+   </div>
+ </nav>
+<!-- ----nav---- -->
+<div class="container">
+   <div class="hero1">
+      <div class="row justify-content-center align-items-center">
+         <div class="col-md-3 tool">
+            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M.5 3.498L7.5.5l7 2.998m-14 0l7 2.998m-7-2.998V3.5m14-.002l-7 2.998m7-2.998V11.5l-7 3m7-11.002L7.5 6.5v8m0-8.004V14.5m0-8.004L.5 3.5m7 11l-7-3v-8" stroke="currentColor" stroke-linejoin="round"></path></svg>
+
+         </div>
+         <div class="col-md-6 info ms-3">
+            <h1 class="mb-4 px-2">a well made Browser</h1>
+            <p class="fs-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi illo illum provident sunt sequi. Quibusdam inventore sit</p>
+            <p class=" mt-4 fs-5 ">Version 56.23.41 <button class="ms-3 btn dlbtn btn-info">DOWNLOAD</button> </p>
+
+         </div>
+      </div>
+   </div>
+   <div class="hero2">
+      <div class="heading">
+         <h1>Features</h1>
+         <div class="row justify-content-around">
+            <div class="col-md-3 ftr">
+               <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M15 3.5H6.5m0 0a2 2 0 10-4 0m4 0a2 2 0 11-4 0m0 0H0m15 8h-2.5m0 0a2 2 0 10-4 0m4 0a2 2 0 11-4 0m0 0H0" stroke="currentColor"></path></svg>
+               <h5>Streaming</h5>
+               <p>Stream videos, music efficiently and smoothly all day Stream videos, music efficiently and smoothly all day.</p>
+            </div>
+            <div class="col-md-3 ftr">
+               <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M4.5 4v-.5a3 3 0 016 0V4m-3 3v5M5 9.5h5M2.401 6.39l-.778 7a1 1 0 00.994 1.11h9.766a1 1 0 00.994-1.11l-.778-7a1 1 0 00-.994-.89h-8.21a1 1 0 00-.994.89z" stroke="currentColor"></path></svg>
+               <h5>Security</h5>
+               <p>Stream videos, music efficiently and smoothly all day Stream videos, music efficiently and smoothly all day.</p>
+            </div>
+            <div class="col-md-3 ftr">
+               <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M10.5 7.5a3 3 0 11-6 0 3 3 0 016 0zm0 0v1a2 2 0 104 0v-1a7 7 0 10-3 5.745" stroke="currentColor"></path></svg>
+               <h5>Chat</h5>
+               <p>Stream videos, music efficiently and smoothly all day Stream videos, music efficiently and smoothly all day.</p>
+            </div>
+
+         </div>
+      </div>
+      <svg viewBox="0 0 15 15" class="gps" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M.697.04A.5.5 0 00.04.697l6 14a.5.5 0 00.934-.039l1.921-5.763 5.763-1.92a.5.5 0 00.039-.935l-14-6z" fill="currentColor"></path></svg>
+   </div>
+   <div class="hero3">
+      <div class="heading">
+         <h1>Written In</h1>
+         <div class="row justify-content-around">
+            <div class="col-md-3 wrtin"><p>C</p></div>
+            <div class="col-md-3 wrtin"><p>C++</p></div>
+            <div class="col-md-3 wrtin"><p>Javascript</p></div>
+            <div class="col-md-3 wrtin"><p>Python</p></div>
+         </div>
+      </div>
+   </div>
+   <div class="hero4">
+      <div class="heading">
+         <h1>User Reviews</h1>
+         <div class="revwrap">
+            <div class="review">
+               <i class="fa-solid fa-quote-left"></i>
+               <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+               <div class="profile">
+                 <div class="img">
+                   <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4Mzk2MA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                 </div>
+                 <div class="name">
+                   <p>John Doe</p>
+                   <p>Software Engineer</p>
+                 </div>
+               </div>
+             </div>
+             <div class="review">
+               <i class="fa-solid fa-quote-left"></i>
+               <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+               <div class="profile">
+                 <div class="img">
+                   <img src="https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4Mzk4NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                 </div>
+                 <div class="name">
+                   <p>None Doe</p>
+                   <p>console.log() expert</p>
+                 </div>
+               </div>
+             </div>
+             <div class="review">
+               <i class="fa-solid fa-quote-left"></i>
+               <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+               <div class="profile">
+                 <div class="img">
+                   <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4NDAwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                 </div>
+                 <div class="name">
+                   <p>Gone Doe</p>
+                   <p>Waresoft Engineer</p>
+                 </div>
+               </div>
+             </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- footer-------- -->
+<footer>
+   <div class="row justify-content-around">
+      <div class="col-md-3 fbox">
+         <h6>Important Links</h6>
+         <ul class="links">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Downloads</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Contact</li>
+         </ul>
+      </div>
+      <div class="col-md-3 fbox">
+         <h6>Important Links</h6>
+         <ul class="links">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Downloads</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Contact</li>
+         </ul>
+      </div>
+      <div class="col-md-3 fbox">
+         <h6>Important Links</h6>
+         <ul class="links">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Downloads</li>
+            <li><a href=""></a>Services</li>
+            <li><a href=""></a>About Us</li>
+            <li><a href=""></a>Contact</li>
+         </ul>
+         <div class="ficon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+</html>
